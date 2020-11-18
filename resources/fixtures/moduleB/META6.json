@@ -1,0 +1,19 @@
+{
+  "meta-version": "0",
+  "name": "ModuleB",
+  "version": "0.0.0",
+  "auth": "site:user",
+  "description": "an example module of type B",
+  "source-url": "test.com/test-user/raku-B",
+  "perl": "6.d",
+  "author": "Some User <some.user@someuser.tech>",
+  "tags": [
+    "example",
+    "test",
+    "meta6"
+  ],
+  "license": "Artistic-2.0",
+  "provides": {
+    "ModuleB": "lib/ModuleB.rakumod"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "meta-version": "0",
+  "name": "META6::Query",
+  "version": "0.0.0",
+  "auth": "github:littlebenlittle",
+  "description": "query information from a raku module directory",
+  "source-url": "github.com/littlebenlittle/meta6-query",
+  "perl": "6.d",
+  "author": "Ben Little <ben.little@benlittle.dev>",
+  "tags": [
+    "meta6",
+    "module",
+    "query",
+    "filesystem"
+  ],
+  "license": "Artistic-2.0",
+  "provides": {
+    "META6::Query": "lib/META6/Query.rakumod"
+  }
+}

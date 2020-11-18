@@ -1,0 +1,19 @@
+{
+  "meta-version": "0",
+  "name": "ModuleC",
+  "version": "0.0.0",
+  "auth": "site:user",
+  "description": "an example module of type C",
+  "source-url": "test.com/test-user/raku-C",
+  "perl": "6.d",
+  "author": "Some User <some.user@someuser.tech>",
+  "tags": [
+    "example",
+    "test",
+    "meta6"
+  ],
+  "license": "Artistic-2.0",
+  "provides": {
+    "ModuleC": "lib/ModuleC.rakumod"
+  }
+}
