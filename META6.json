@@ -4,14 +4,20 @@
   "version": "0.0.0",
   "auth": "github:littlebenlittle",
   "description": "query information from a raku module directory",
-  "source-url": "github.com/littlebenlittle/meta6-query",
+  "source-url": "https://github.com/littlebenlittle/meta6-query.git",
   "perl": "6.d",
-  "author": "Ben Little <ben.little@benlittle.dev>",
+  "authors": [
+    "Ben Little <ben.little@benlittle.dev>"
+  ],
   "tags": [
     "meta6",
     "module",
     "query",
     "filesystem"
+  ],
+  "build-depends" : [
+    "FileSystem::Helpers",
+    "Stache::Renderer"
   ],
   "license": "Artistic-2.0",
   "provides": {
