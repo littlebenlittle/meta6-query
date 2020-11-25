@@ -4,18 +4,6 @@ use Test;
 
 use META6::Query;
 
-# class Unit {
-# 	has $.name;
-# }
-# 
-# my @units = [
-#     Unit.new(name => 'not implemented'),
-# ];
-# 
-# plan @units.elems;
-# 
-# ok False, .name for @units;
-
 my $root = META6::Query::root-dir($?FILE);
 is $root.absolute, $?FILE.IO.dirname.IO.dirname.IO.absolute, 'root-dir';
 
